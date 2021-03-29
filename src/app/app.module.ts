@@ -7,12 +7,10 @@ import {MatIconModule} from '@angular/material/icon';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 import { AppComponent } from './app.component';
-import { PlaygroundComponent } from './test/playground/playground.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    PlaygroundComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

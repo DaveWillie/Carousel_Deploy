@@ -36,6 +36,10 @@ export class AppComponent {
           slidesToShow: 5,
           initialSlide: 0,
           swipeToSlide: true,
+          infinite: true,
+          variableWidth: true,
+          respondTo: 'slider', //makes the slider to change width depending on the container it is in
+          adaptiveHeight: true,
           // normal options...
           
           arrows: true,
@@ -46,7 +50,7 @@ export class AppComponent {
           // the magic
           responsive: [{
          
-              breakpoint: 1324,
+              breakpoint: 800,
               settings: {
                 dots:false,
                 slidesToShow: 3,

@@ -95,11 +95,14 @@
 
 
 .slick-slide.slick-current{
-    transform: scale(1);
+    transform: scale(.88);
     opacity: 1;
+    width: 420px;
+    height: 550px;
     background-color: #ffcc00;
     padding-bottom: 8px;
     border-radius: 20px;
+    margin-top: 0px;
 
 
     
@@ -109,7 +112,7 @@
         text-align: center;
         padding: 25px;
         margin: 0px;
-
+        height: 91%;
         
     }
 
@@ -126,10 +129,10 @@
 
 
 .slick-slide{
-    transform: scale(0.67);
+    transform: scale(0.81);
     transition: all ease 0.5s;
-    margin:  0px;
-
+    margin:  100px -12px;
+    width: 278px;
     border-radius: 15px;
     box-shadow: rgba(0,0,0,0.15) 0px 0px 10px;
 
@@ -151,7 +154,24 @@
 }
 
 
+.slick-slide.slick-current img{
+    margin: 0 auto;
+    max-width: 160px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.slick-slide.slick-current h4{
+    font-weight: 900;
+    font-size: 45px;
+    color: "#fff";
+    margin-bottom: 50px;
+}
+
+
 .slick-slide.slick-current.slick-active {
+
+
 
     .continue{
         display: block;
