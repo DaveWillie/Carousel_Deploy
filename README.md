@@ -1,4 +1,4 @@
-## Short Video Preview
+## Short Video Preview (Initail Version)
 
 https://user-images.githubusercontent.com/53975893/112626991-ae17af80-8e39-11eb-9013-4c7a4aa38ce0.mp4
 
