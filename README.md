@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/53975893/112626991-ae17af80-8e39-11eb-
 
 # Home screen (Desktop view) with a responsive 5-card carousal
 
-![screencapture-localhost-4200-2021-03-26-13_14_42](https://user-images.githubusercontent.com/53975893/112623666-495a5600-8e35-11eb-811d-82ac2487e2e5.png)
+![screencapture-localhost-4200-2021-03-29-17_23_39](https://user-images.githubusercontent.com/53975893/112867401-2d67e600-90bb-11eb-9c52-61b45a2481e3.png)
 
 
 # Home screen (Tablet view) with a responsive 5-card carousal that switches to 3-cards on the screen break-point.
