@@ -7,7 +7,6 @@
       <div  fxFill style="background-color: #D6EAEC;">
         <div fxLayout="row" fxLayoutGap="1.5%" fxFill>
           <div *ngFor="let stripe of stripes" style="width: 1000px; height: 100%; background-color: #E7F5F6">
-
           </div>
         </div>
       </div>
@@ -15,8 +14,6 @@
     <div fxFlex="14" class="pink-wall"></div>
   </div>
 </div>
-
-
 <div class="page">
   <div fxLayout="row" class="toolbar">
     <img src="./assets/mtn_logo.png" class="mtn-logo"/>
@@ -35,109 +32,7 @@
   <div fxLayout="row" class="info-body">
     <div fxFlex="14" class="pink-wall"></div>
     <div fxFlex="72" >
-      <div fxLayout="column"  fxFill>
-  
-        <div fxFlex="25" fxFill >
-          <div fxLayout="row" fxLayoutAlign="center center" fxFill>
-            <div fxFlex="46" fxFlex.xs="50" fxFlex.md="50" fxLayoutAlign="center end" fxLayoutAlign.xs="start end" fxFill>
-            
-              <div fxLayout="column">
-                <h2 style="font-size: 28px; font-weight: 300; color: rgb(114, 112, 112);">What are you</h2>
-                <h1 style="font-size: 25px; font-weight: bolder; margin-top: 15px;">here to do?</h1>
-              </div>
-            </div>
-            <div fxFlex="46" fxFlex.xs="50" fxLayoutAlign="center center" fxLayoutAlign.xs="end center">
-              
-            </div>
-          </div>
-        </div>
-        <div fxFlex="50" fxFill>
-        <div class="card">
-      <div class="slider">
-          <div class="item">
-              <div class="item-inner">
-                  <img src="./assets/empty_image.png"/>
-                  <h4>Get a Device</h4>
-                  <div class="continue">
-                    <div fxLayout="row" fxLayoutAlign="center center" style="margin-top: 90px;">
-                      <p>START HERE</p><i class="material-icons">keyboard_arrow_right</i>
-                    </div>
-                  </div>   
-              </div>
-          </div>
-          <div class="item">
-              <div class="item-inner">
-                  <img src="./assets/empty_image.png"/>
-                  <h4 style="padding: 0px; margin: 0px;">Add a</h4>
-                  <h4 style="padding: 0px; margin: 11px 0px 11px 0px;">phone-line</h4>
-                  <div class="continue">
-                    <div fxLayout="row" fxLayoutAlign="center center" style="margin-top: 60px;">
-                      <p>START HERE</p><i class="material-icons">keyboard_arrow_right</i>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <div class="item">
-              <div class="item-inner">
-                  <img src="./assets/empty_image.png"/>
-                  <h4>Upgrade</h4>
-                  <div class="continue">
-                    <div fxLayout="row" fxLayoutAlign="center center"  style="margin-top: 90px;">
-                      <p>START HERE</p><i class="material-icons">keyboard_arrow_right</i>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <div class="item">
-            <div class="item-inner">
-                <img src="./assets/empty_image.png"/>
-                <h4>Contracts</h4>
-                <div class="continue">
-                  <div fxLayout="row" fxLayoutAlign="center center" style="margin-top: 90px;">
-                    <p>START HERE</p><i class="material-icons">keyboard_arrow_right</i>
-                  </div>
-                </div>
-            </div>
-        </div>
-          <div class="item">
-              <div class="item-inner">
-                  <img src="./assets/empty_image.png"/>
-                  <h4 style="padding: 0px; margin: 0px;">Mobile</h4>
-                  <h4 style="padding: 0px; margin: 11px 0px 11px 0px;">internet</h4>
-                  <div class="continue">
-                    <div fxLayout="row" fxLayoutAlign="center center" style="margin-top: 60px;">
-                      <p>START HERE</p><i class="material-icons">keyboard_arrow_right</i>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <div class="item">
-              <div class="item-inner">
-                  <img src="./assets/empty_image.png"/>
-                  <h4 style="padding: 0px; margin: 0px;">Home</h4>
-                  <h4 style="padding: 0px; margin: 11px 0px 11px 0px;">internet</h4>
-                  <div class="continue">
-                    <div fxLayout="row" fxLayoutAlign="center center" style="margin-top: 60px;">
-                      <p>START HERE</p><i class="material-icons">keyboard_arrow_right</i>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          
-      </div>
-  </div>
-        </div>
-        <div fxFlex="25" >
-          <div fxLayout="row" fxLayoutAlign="center center"  style="height: 20px; margin-top: 40px;">
-            <div fxFlex="46" fxFlex.xs="50" fxLayoutAlign="center center" fxLayoutAlign.xs="start center">
-              <button class="prev" ><i class="material-icons">keyboard_arrow_left</i></button>
-            </div>
-            <div fxFlex="46" fxFlex.xs="50" fxLayoutAlign="center center" fxLayoutAlign.xs="end center">
-              <button class="next" ><i class="material-icons">keyboard_arrow_right</i></button>
-            </div>
-          </div>
-        </div>
-      </div> 
+      <app-carousel></app-carousel>
     </div>
     <div fxFlex="14" class="pink-wall"></div>
   </div>

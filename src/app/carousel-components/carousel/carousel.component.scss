@@ -1,0 +1,126 @@
+.slick-slide.slick-current{
+    transform: scale(.88);
+    opacity: 1;
+    width: 420px;
+    height: 505px;
+    background-color: #ffcc00;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    margin-top: 0px;
+
+    
+    .item-inner{
+        background: linear-gradient(45deg, #f6f6f6, #f6f6f6);
+        border-radius: 15px;
+        text-align: center;
+        padding: 25px;
+        margin: 0px;
+        height: 91%;
+        
+    }
+
+}
+
+
+:host ::ng-deep app-card.slick-slide{
+
+    transform: scale(0.8);
+    transition: all ease 0.5s;
+    margin:  90px -12px;
+    width: 278px;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,0.15) 0px 0px 10px;
+
+    .item-inner{
+        background: linear-gradient(45deg, #f6f6f6, #f6f6f6);
+        border-radius: 15px;
+        text-align: center;
+        padding: 25px;
+
+        
+    }
+
+    .image{
+        margin: 0 auto;
+        max-width: 120px;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+
+    .continue{
+        display: none;
+    }
+
+}
+
+:host ::ng-deep app-card.slick-slide.slick-current.slick-active.slick-center.item {
+
+    width: 450px;
+    background-color: rgb(199, 157, 157);
+    padding: 0px;
+    outline: none;
+
+    .item-inner{
+        background: linear-gradient(45deg, #f6f6f6, #f6f6f6);
+        border-radius: 15px;
+        text-align: center;
+        padding: 25px;
+
+        
+    }
+
+
+}
+
+:host ::ng-deep app-card.slick-slide.slick-current.slick-active{
+
+    .image{
+        margin: 0 auto;
+        max-width: 150px;
+        margin-bottom: 80px;
+        margin-top: 50px;
+    }
+
+    .continue{
+        display: block;
+        margin-bottom: 15px;
+        h1{
+            font-size: 15px;
+        }
+    }
+
+    h3{
+        font-weight: 900;
+        font-size: 35px;
+        color: "#fff";
+    }
+}
+
+.slick-arrow{
+    z-index: 99;
+    background: #000000;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    outline: none;
+
+    i{
+        margin-left: -3px;
+        color: white;
+    }
+}
+
+
+.slick-list{
+    padding-top: 55px !important;
+    padding-bottom: 55px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #09529b !important;
+}
+
+
+  
