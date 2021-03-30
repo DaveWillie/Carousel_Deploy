@@ -1,21 +1,11 @@
-## Short Video Preview
+## Short Video Preview (Initial Version)
 
 https://user-images.githubusercontent.com/53975893/112626991-ae17af80-8e39-11eb-9013-4c7a4aa38ce0.mp4
 
 
-# Home screen (Desktop view) with a responsive 5-card carousal
+# Home screen with a responsive 5-card carousal
 
-![screencapture-localhost-4200-2021-03-26-13_14_42](https://user-images.githubusercontent.com/53975893/112623666-495a5600-8e35-11eb-811d-82ac2487e2e5.png)
-
-
-# Home screen (Tablet view) with a responsive 5-card carousal that switches to 3-cards on the screen break-point.
-
-![screencapture-localhost-4200-2021-03-26-12_53_55](https://user-images.githubusercontent.com/53975893/112623374-f385ae00-8e34-11eb-838b-b05ad803a77b.png)
-
-
-# Home screen (Mobile view) with a responsive 5-card carousal that switches to 1-card on the screen break-point.
-
-![screencapture-localhost-4200-2021-03-26-13_08_31](https://user-images.githubusercontent.com/53975893/112623385-f7193500-8e34-11eb-8f3c-380f7632dd44.png)
+![screencapture-localhost-4200-2021-03-29-17_23_39](https://user-images.githubusercontent.com/53975893/112867401-2d67e600-90bb-11eb-9c52-61b45a2481e3.png)
 
 
 # Carousel
