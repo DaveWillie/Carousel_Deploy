@@ -24,7 +24,6 @@ export class CarouselComponent implements OnInit {
           centerMode: true,
           slidesToShow: 5,
           initialSlide: 0,
-          swipeToSlide: true,
           infinite: true,
           variableWidth: true,
           respondTo: 'slider', //makes the slider to change width depending on the container it is in
